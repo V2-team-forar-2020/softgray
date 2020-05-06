@@ -21,6 +21,32 @@ ul {
 }
 
 /* nav{} */
-/* section.splash{} */
+section.splash {
+  height: 60vh;
+  background-image: url("../img/splash.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+section.splash #splashText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+section.splash #splashText h2 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+section.splash #splashText p {
+  line-height: 0.7rem;
+}
+
 /* main{} */
 /*# sourceMappingURL=style.css.map */
