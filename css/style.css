@@ -20,8 +20,107 @@ ul {
   line-height: 1.5;
 }
 
-/* nav{} */
+
+
+section.splash {
+  height: 60vh;
+  background-image: url("../img/splash.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+section.splash #splashText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+section.splash #splashText h2 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+section.splash #splashText p {
+  line-height: 0.7rem;
+}
+
+
+nav {
+  padding: 5px 0 5px 0;
+  margin: 0 auto;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  color: black;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav h1 {
+  font-weight: bolder;
+}
+
+nav .nav-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .nav-right div:first-child {
+  margin-left: auto;
+}
+
+nav .nav-right div:last-child {
+  font-weight: bolder;
+  margin-left: 40px;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+nav ul li:first-child a {
+  font-weight: bolder;
+}
+
+nav ul li {
+  color: black;
+  padding: 0px 15px 0px 15px;
+  list-style: none;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
 /* section.splash{} */
+
 /* main{} */
 main {
   width: 70%;
