@@ -122,4 +122,44 @@ nav ul li a {
 /* section.splash{} */
 
 /* main{} */
+main {
+  width: 70%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main article {
+  width: 23%;
+  margin: 1%;
+}
+
+main article div {
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  background: #50a7dd;
+  border-radius: 50%;
+}
+
+main article div i {
+  margin: 25px;
+  text-align: center;
+  font-size: 50px;
+  color: #eee;
+}
+
+main article div i.fa-code {
+  margin: 25px 19px;
+}
+
+main article h3 {
+  text-align: center;
+  width: 100%;
+  color: #50a7dd;
+}
 /*# sourceMappingURL=style.css.map */
