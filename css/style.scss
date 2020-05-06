@@ -67,6 +67,27 @@ nav {
   }
 }
 
-/* section.splash{} */
+section.splash {
+  height: 60vh;
+  background-image: url("../img/splash.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  #splashText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    h2 {
+      font-weight: 700;
+      font-size: 3rem;
+    }
+    p {
+      line-height: 0.7rem;
+    }
+  }
+}
 
 /* main{} */
